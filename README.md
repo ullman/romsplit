@@ -10,7 +10,11 @@ By Henrik Ullman 2016
 make
 
 ##usage:
-./romsplit romfile hirom lorom
+romsplit [option] romfile highrom lowrom
+Options:
+-s : split romfile into hirom and lorom
+-m : merge hirom and lorom into romfile
+
 
 
 ##Licence:
