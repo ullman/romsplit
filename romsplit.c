@@ -5,6 +5,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void check_open(FILE* fh, char* fn);
 
